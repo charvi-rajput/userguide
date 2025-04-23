@@ -1,0 +1,119 @@
+:root {
+    --accent: #e67e22;
+    --light-bg: #f9f9f9;
+    --soft-border: #e0e0e0;
+    --text-color: #2c3e50;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--light-bg);
+    color: var(--text-color);
+    padding: 2rem;
+  }
+  
+  .wrapper {
+    max-width: 850px;
+    margin: 0 auto;
+    background: white;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  }
+  
+  h1, h2, h3 {
+    margin-top: 1.2rem;
+    font-weight: 700;
+    color: var(--text-color);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    border: none;
+    margin-bottom: 0.5rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-top: 3rem;
+  }
+  
+  ul, li {
+    margin-top: 0.5rem;
+    line-height: 1.7;
+  }
+  
+  ul ul {
+    margin-left: 1.5rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--accent);
+    font-weight: 500;
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition */
+  }
+  
+  a:hover {
+    background-color: #d35400; /* Slightly darker color on hover */
+    color: white;
+
+  }
+  
+  code {
+    background: #f0f0f0;
+    padding: 0.2em 0.5em;
+    border-radius: 4px;
+    font-size: 0.95em;
+  }
+  
+  pre {
+    background: #f4f4f4;
+    padding: 1em;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin-top: 1rem;
+    font-size: 0.95em;
+  }
+  
+  blockquote {
+    border-left: 5px solid var(--accent);
+    background-color: #fcfcfc;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+  }
+  
+  hr {
+    margin: 3rem 0;
+    border: none;
+    border-top: 1px solid var(--soft-border);
+  }
+  
+  .toc-header {
+    padding: 12px 20px;
+    background-color: #ecf0f1;
+    border-left: 5px solid var(--accent);
+    border-radius: 6px;
+    font-size: 1.4rem;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 13px;
+    color: gray;
+  }
+  
+  img {
+    margin-top: 2rem;
+  }
+  
+  #what {
+    line-height: 10px;
+  }
