@@ -8,17 +8,17 @@
 
 <h2 style=" padding: 10px 15px; background-color:#ecf0f1; border-left: 5px solid #e67e22; border-radius: 4px;">Table of Contents</h2>
 <ul>
-    <li><a href="#what">What is SQLite?</a></li>
-    <li><a href="#why">Why Use SQLite?</a></li>
-    <li><a href="#install"> Installation Guide</a>
+    <li><a style="text-decoration:none" href="#what">What is SQLite?</a></li>
+    <li><a style="text-decoration:none" href="#why">Why Use SQLite?</a></li>
+    <li><a style="text-decoration:none" href="#install"> Installation Guide</a>
       <ul>
-        <li><a href="#-step-1-download-sqlite">📦 Step 1: Download SQLite</a></li>
-        <li><a href="#-step-2-verify-installation">🔽 Step 2: Verify Installation</a></li>
+        <li><a style="text-decoration:none" href="#-step-1-download-sqlite">📦 Step 1: Download SQLite</a></li>
+        <li><a style="text-decoration:none" href="#-step-2-verify-installation">🔽 Step 2: Verify Installation</a></li>
       </ul>
     </li>
-    <li><a href="#reso">Further Resources</a></li>
-    <li><a href="#faqs">FAQs</a></li>
-    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a style="text-decoration:none" href="#reso">Further Resources</a></li>
+    <li><a style="text-decoration:none" href="#faqs">FAQs</a></li>
+    <li><a style="text-decoration:none" href="#conclusion">Conclusion</a></li>
   </ul>
 
 ---
