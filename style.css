@@ -53,16 +53,16 @@
   
   a {
     color: #e67e22;
-    font-weight: bold;
+    font-weight: 550;
     padding: 8px 8px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 15px;
     transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
   }
   
   a:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px #979595;
   }
   
   code {
