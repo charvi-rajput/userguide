@@ -1,5 +1,5 @@
 :root {
-    --accent: #e67e22;
+    --accent: #185fb1;
     --light-bg: #f9f9f9;
     --soft-border: #e0e0e0;
     --text-color: #2c3e50;
@@ -43,8 +43,15 @@
   }
   
   ul, li {
+    margin-left: 4px;
     margin-top: 0.5rem;
     line-height: 1.7;
+    list-style-type: disc;
+    color:#2c3e50;
+    word-spacing: 0.5px;
+    letter-spacing: 0.5px;
+    border-bottom: 2px;
+
   }
   
   ul ul {
@@ -52,28 +59,33 @@
   }
   
   a {
-    color: #e67e22;
-    font-weight: 550;
-    padding: 8px 8px;
+    color: #185fb1;
+    font-weight: bold;
+    padding: 6px 6px;
     text-decoration: none;
-    border-radius: 15px;
-    transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
+    border-radius: 3px;
+    border-bottom: 0.5px solid rgb(199, 194, 194);
   }
   
   a:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 5px 10px #979595;
+    background-color: #ecf0f1;
+    color: rgb(41, 40, 40);
+    box-shadow: 0 3px 5px #979595;
+  }
+
+  #step1, #step2 {
+    border-bottom: none;
   }
   
   code {
-    background: #f0f0f0;
+    background: #e0dfdf;
     padding: 0.2em 0.5em;
     border-radius: 4px;
-    font-size: 0.95em;
+    font-size: 1em;
   }
   
   pre {
-    background: #f4f4f4;
+    background: #e0dfdf;
     padding: 1em;
     border-radius: 8px;
     overflow-x: auto;
@@ -83,7 +95,7 @@
   
   blockquote {
     border-left: 5px solid var(--accent);
-    background-color: #fcfcfc;
+    background-color: #e0dfdf;
     padding: 1rem;
     margin: 1.5rem 0;
     border-radius: 8px;
@@ -91,6 +103,7 @@
   
   .toc-header {
     padding: 12px 20px;
+    background: linear-gradient(to right, #ecf0f1, white);
     background-color: #ecf0f1;
     border-left: 5px solid var(--accent);
     border-radius: 6px;
@@ -114,10 +127,9 @@
   }
 
   #mainline {
-    border: none;
-    height: 2px;
-    background-color: #e67e22;
-    margin: 2rem 0;
+    border:none;
+    border: 0.5px solid #185fb1 ;
+    margin: 1.5rem 0;
     width: 100%;
   }
    
