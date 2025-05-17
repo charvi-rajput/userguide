@@ -1,2 +1,2 @@
 # User Guide Documentation Site
-### Beginners' Guide on SQLite using HTML & CSS.
+##### Beginners' Guide on SQLite using HTML & CSS.
